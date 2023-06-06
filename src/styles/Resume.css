@@ -1,0 +1,25 @@
+.resume h1 {
+  padding: 30px; 
+  text-align: center; 
+}
+
+.resume p {
+  text-align: center;
+}
+
+.resume h2 {
+  padding-top: 20px; 
+  text-align: center; 
+}
+
+.list1 {
+    list-style-position: inside;  
+    text-align: center; 
+    margin-right: 35px; 
+}
+
+.list2 {
+    list-style-position: inside;  
+    text-align: center; 
+    margin-right: 35px; 
+}

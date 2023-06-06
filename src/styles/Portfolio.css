@@ -1,0 +1,77 @@
+.projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectTitle {
+  color: black; 
+  padding-top: 35px; 
+}
+
+.projectList {
+  width: 80vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.project {
+  border-radius: 10px;
+  width: 350px;
+  height: 280px;
+  margin: 45px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.project:hover {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.project .backgroundImage {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  height: 220px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 25px;
+  color: black;  
+}
+
+a:link {
+  text-decoration: none;  
+}
+
+@media only screen and (max-width: 1300px) {
+  .projectList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectList {
+    width: 100%;
+  }
+  .project {
+    width: 300px;
+    height: 300px;
+  }
+}

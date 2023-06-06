@@ -1,0 +1,52 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #213361;
+}
+
+.about {
+  width: 100%;
+  height: calc(88vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #213361;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  height: 150px;
+  /* margin-bottom: 200px; */
+  color: #E8AA42;
+}
+
+.about .summary {
+  width: 40%;
+  font-size: 30px;
+}
+
+.summary {
+  color: #E8AA42;
+  padding-top: 50px;  
+}
+
+.prof-pic {
+  border-radius: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .summary {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+}
