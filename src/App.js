@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     if( process.env.NODE_ENV === "production" ){
-      setPrefix("/react-portfolio")
+      setPrefix("/react-portfolio2")
     }
   }, [process.env.NODE_ENV])
 
