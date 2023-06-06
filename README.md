@@ -50,5 +50,5 @@ The following screenshot shows the web application's appearance:
 
 The following link will bring you to the live webpage:
 
-[React Portfolio](https://yockaflocka.github.io/react-portfolio/)
+[React Portfolio](https://yockaflocka.github.io/react-portfolio2/)
 
