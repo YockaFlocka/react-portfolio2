@@ -5,21 +5,25 @@
 
 .resume p {
   text-align: center;
+  font-size: large;
 }
 
 .resume h2 {
   padding-top: 20px; 
-  text-align: center; 
+  text-align: center;
+  text-decoration: underline; 
 }
 
 .list1 {
     list-style-position: inside;  
     text-align: center; 
     margin-right: 35px; 
+    margin-top: 30px;
 }
 
 .list2 {
     list-style-position: inside;  
     text-align: center; 
-    margin-right: 35px; 
+    margin-right: 35px;
+    margin-top: 30px; 
 }

@@ -1,0 +1,33 @@
+.contact-form {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.form-group {
+  margin: 10px;  
+}
+
+.title {
+  margin: 30px;
+  padding-top: 20px;  
+}
+
+.button {
+  margin: 10px;  
+}
+
+.error-text {
+  margin-left: 30px;  
+}
+
+.bottom-text {
+  margin: 30px;  
+  font-size: large;
+  width: 50%;
+}
+
+.thank-you {
+  margin-left: 30px; 
+  font-size: large; 
+}
