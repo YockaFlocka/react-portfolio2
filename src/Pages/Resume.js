@@ -12,21 +12,21 @@ function Resume() {
       <h2> Front-End </h2>
       <div className="list1">
         <ul>
-          <li>Bootstrap</li>
-          <li>HTML, CSS</li>
-          <li>JavaScript</li>
-          <li>ReactJS</li>
+          <li className="list-item">Bootstrap</li>
+          <li className="list-item">HTML, CSS</li>
+          <li className="list-item">JavaScript</li>
+          <li className="list-item">ReactJS</li>
         </ul>
       </div>
       <h2> Back-End </h2>
       <div className="list2">
         <ul>
-          <li>NodeJS</li>
-          <li>ExpressJS</li>
-          <li>MS SQL</li>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>Java</li>
+          <li className="list-item">NodeJS</li>
+          <li className="list-item">ExpressJS</li>
+          <li className="list-item">MS SQL</li>
+          <li className="list-item">MySQL</li>
+          <li className="list-item">MongoDB</li>
+          <li className="list-item">Java</li>
         </ul>
       </div>
     </div>
