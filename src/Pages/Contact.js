@@ -29,6 +29,7 @@ function Contact() {
       setErrorMessage('Email is invalid');
       return;
     }
+    
     // if (!name) {
     //   setErrorMessage('Please enter a name');
     //   return;
