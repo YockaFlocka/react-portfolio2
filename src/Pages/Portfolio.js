@@ -4,6 +4,7 @@ import WeatherDash from '../assets/weather-dashboard.JPG';
 import TinDog from '../assets/TinDog.JPG';
 import WorkScheduler from '../assets/day-scheduler.JPG';
 import CSSPortfolio from '../assets/css-site.JPG';
+import RideGuide from '../assets/RideGuide.JPG';
 import "../styles/Portfolio.css";
 
 
@@ -23,7 +24,10 @@ function Portfolio() {
         </a>
         <a href='https://yockaflocka.github.io/css/'>
         <Project name="CSS Portfolio" image={CSSPortfolio} />  
-        </a>      
+        </a>  
+        <a href='https://bike-trail-explore-grp-1.herokuapp.com/'>
+        <Project name="RideGuide" image={RideGuide} />
+        </a>    
       </div>
     </div>
   )
